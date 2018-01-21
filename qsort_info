@@ -1,0 +1,170 @@
+ ------ Elf header ------
+ Magic Number: 7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00 
+ Class:  ELFCLASS32
+ Data:  little-endian
+ Version:  1
+ OS/ABI:  System V ABI
+ ABI Version:  0
+ Type:  15925250
+ Machine:  243
+ Version:  1
+ Entry point address:  0x0
+ Start of program headers:  64 bytes into file
+ Start of section headers:  53248 bytes into file
+ Flags:  0x0
+ Size of this header:  64 Bytes
+ Size of program headers:  56 Bytes
+ Number of program headers:  1 
+ Size of section headers:  64 Bytes
+ Number of section headers:  22 
+ Section header string table index:  19
+
+ ------ Program header ------
+        addr        offset    size      type
+ [000]  00010000    004096    006000    1
+
+ ------ Section header ------
+        addr        offset    size      name
+ [000]  00000000    000000    000000    
+ [001]  00010000    004096    002768    .text
+ [002]  00010ad0    006864    000008    .rodata
+ [003]  00010ad8    006872    000008    .init_array
+ [004]  00010ae0    006880    000008    .fini_array
+ [005]  00010ae8    006888    001056    .eh_frame
+ [006]  00010f08    007944    000008    .jcr
+ [007]  00010f10    007952    001864    .data
+ [008]  00011660    009824    000024    .sdata
+ [009]  00011678    009848    000008    .sbss
+ [010]  00011680    009848    000240    .bss
+ [011]  00000000    009848    000017    .comment
+ [012]  00000000    009865    018034    .debug_info
+ [013]  00000000    027899    003624    .debug_abbrev
+ [014]  00000000    031523    005437    .debug_loc
+ [015]  00000000    036960    000416    .debug_aranges
+ [016]  00000000    037376    008629    .debug_line
+ [017]  00000000    046005    003027    .debug_str
+ [018]  00000000    049032    000128    .debug_ranges
+ [019]  00000000    049160    000202    .shstrtab
+ [020]  00000000    049368    002808    .symtab
+ [021]  00000000    052176    001070    .strtab
+
+ ------ Symtable ------
+        value       size      name
+ [000]  00000000    000000    
+ [001]  00010000    000000    
+ [002]  00010ad0    000000    
+ [003]  00010ad8    000000    
+ [004]  00010ae0    000000    
+ [005]  00010ae8    000000    
+ [006]  00010f08    000000    
+ [007]  00010f10    000000    
+ [008]  00011660    000000    
+ [009]  00011678    000000    
+ [010]  00011680    000000    
+ [011]  00000000    000000    
+ [012]  00000000    000000    
+ [013]  00000000    000000    
+ [014]  00000000    000000    
+ [015]  00000000    000000    
+ [016]  00000000    000000    
+ [017]  00000000    000000    
+ [018]  00000000    000000    
+ [019]  00000000    000000    crtstuff.c
+ [020]  00010ae8    000000    __EH_FRAME_BEGIN__
+ [021]  00010f08    000000    __JCR_LIST__
+ [022]  0001004c    000000    deregister_tm_clones
+ [023]  00010080    000000    register_tm_clones
+ [024]  000100c0    000000    __do_global_dtors_aux
+ [025]  00011680    000001    completed.4929
+ [026]  00010ae0    000000    __do_global_dtors_aux_fini_array_entry
+ [027]  00010104    000000    frame_dummy
+ [028]  00011688    000048    object.4934
+ [029]  00010ad8    000000    __frame_dummy_init_array_entry
+ [030]  00000000    000000    qsort.c
+ [031]  00000000    000000    crtstuff.c
+ [032]  00010ae8    000000    __FRAME_END__
+ [033]  00010f08    000000    __JCR_END__
+ [034]  00000000    000000    atexit.c
+ [035]  00000000    000000    exit.c
+ [036]  00000000    000000    fini.c
+ [037]  00000000    000000    impure.c
+ [038]  00010f10    001864    impure_data
+ [039]  00000000    000000    init.c
+ [040]  00000000    000000    __atexit.c
+ [041]  00000000    000000    __call_atexit.c
+ [042]  00000000    000000    syscalls.c
+ [043]  00011678    000008    heap_end.2381
+ [044]  00011760    000016    t0.2343
+ [045]  00000000    000000    errno.c
+ [046]  00000000    000000    
+ [047]  00010ae8    000000    __fini_array_end
+ [048]  00010ae0    000000    __fini_array_start
+ [049]  00010ae0    000000    __init_array_end
+ [050]  00010ad8    000000    __preinit_array_end
+ [051]  00010ad8    000000    __init_array_start
+ [052]  00010ad8    000000    __preinit_array_start
+ [053]  000107e4    000020    fstatat
+ [054]  00010a40    000028    sysconf
+ [055]  00010f10    000000    _fdata
+ [056]  00010a18    000008    utime
+ [057]  00010814    000020    faccessat
+ [058]  00010ac8    000008    __errno
+ [059]  00010958    000144    times
+ [060]  00010ad8    000000    _etext
+ [061]  00011e60    000000    _gp
+ [062]  00010884    000036    execve
+ [063]  000108cc    000008    getpid
+ [064]  00010150    000368    qsort
+ [065]  00011658    000000    __TMC_END__
+ [066]  00000000    000000    malloc
+ [067]  0001091c    000060    isatty
+ [068]  00011680    000000    _bss_start
+ [069]  00011660    000000    __dso_handle
+ [070]  00010754    000020    lseek
+ [071]  00011668    000008    _global_impure_ptr
+ [072]  00010a20    000008    chown
+ [073]  000103cc    000160    __libc_init_array
+ [074]  00010a28    000008    chmod
+ [075]  00010048    000000    _init
+ [076]  00010370    000092    __libc_fini_array
+ [077]  0001077c    000020    write
+ [078]  00010790    000028    fstat
+ [079]  000108d4    000036    kill
+ [080]  00000000    000000    __deregister_frame_info
+ [081]  00010a30    000008    chdir
+ [082]  00000000    000000    _ITM_registerTMCloneTable
+ [083]  000108f8    000036    wait
+ [084]  0001056c    000396    __call_exitprocs
+ [085]  00010000    000000    _ftext
+ [086]  00010000    000000    _start
+ [087]  000107c8    000028    lstat
+ [088]  00010768    000020    read
+ [089]  0001046c    000256    __register_exitproc
+ [090]  00010864    000032    unlink
+ [091]  000108a8    000036    fork
+ [092]  000106f8    000048    __syscall_error
+ [093]  00000000    000000    _ITM_deregisterTMCloneTable
+ [094]  00010a5c    000080    sbrk
+ [095]  000109e8    000032    gettimeofday
+ [096]  000102c0    000108    main
+ [097]  00010a38    000008    getcwd
+ [098]  00010048    000000    _fini
+ [099]  0001032c    000020    atexit
+ [100]  000116b8    000168    result
+ [101]  00011670    000008    _impure_ptr
+ [102]  00010a08    000016    ftime
+ [103]  000107ac    000028    stat
+ [104]  000107f8    000028    access
+ [105]  00011658    000000    _edata
+ [106]  00011770    000000    _end
+ [107]  00010848    000028    link
+ [108]  00010340    000048    exit
+ [109]  00010740    000020    openat
+ [110]  00010aac    000028    _exit
+ [111]  00010728    000024    open
+ [112]  00000000    000000    _Jv_RegisterClasses
+ [113]  00011678    000000    _fbss
+ [114]  00000000    000000    __register_frame_info
+ [115]  00010828    000032    close
+ [116]  00000000    000000    free
+
