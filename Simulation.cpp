@@ -43,6 +43,7 @@ char Reg_name[32][6] = {
 	"s8", "s9", "s10", "s11",
 	"t3", "t4", "t5", "t6"
 };
+// git ssh test
 
 void print_reg_info() {
     for(int i = 0; i < 32; ++i) {
